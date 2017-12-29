@@ -1,9 +1,9 @@
 # Human_Activity__Dataset
 ## Content
-  * The file used to make the data set , located in the "UCI HAR Dataset" folder
-  * The cookbook explain the variables, located in "Codebook.md"
-  * The script that used to create the tidy data, called "run_analysis.R"
-  * Tidy data with the average of each variable for each activity and each subject, called "tidyData.txt"
+  * UCI HAR Dataset : Folder which contains the file used to make the data set.
+  * Codebook.md: The cookbook explain the variables.
+  * run_analysis.R : The script that used to create the tidy data.
+  * tidyData.txt : Tidy data with the average of each variable for each activity and each subject.
   
 ## Steps for the analysis
    * Extraxt the following files to create the test and train data set:
