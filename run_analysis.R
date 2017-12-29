@@ -84,8 +84,15 @@ main <- function(){
   rbind(test_DataSet, train_DataSet) 
 }
 
-tidy_DataSet
 
-#aggregate
-
+## Gorup by the subject and the activity label and get the mean of the other variables
+getTidyData <- function(){
+  
+  dataSet <- main()
+  tidyData <- aggregate(dataSet[,c(-1,-2)], by=list(subject = dataSet$subject, activity_label = dataSet$activity_label),FUN=mean, na.rm=TRUE)
+  
+  ## Write the tidy data into a file
+  write.table(tidyData, "tidyData.txt", row.names = FALSE, quote = FALSE)
+  tidyData
+}
 
