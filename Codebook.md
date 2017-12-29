@@ -1,8 +1,14 @@
 ## Data Set Variable
 
-* activity_label : label of the activity performed
-* subject : an identifier of the subject who carried out the experiment
 
+* subject : an identifier of the subject who carried out the experiment
+* activity_label : label of the activity performed, list of the posible activities:
+  * WALKING
+  * WALKING_UPSTAIRS
+  * WALKING_DOWNSTAIRS
+  * SITTING
+  * STANDING
+  * LAYING
 * Measurements :The mean and standard deviation for each measurement
    * tBodyAccMeanX
    * tBodyAccMeanY
