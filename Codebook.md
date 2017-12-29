@@ -3,8 +3,7 @@
 * activity_label : label of the activity performed
 * subject : an identifier of the subject who carried out the experiment
 
-Measurements
-The mean and standard deviation for each measurement
+* Measurements :The mean and standard deviation for each measurement
    * tBodyAccMeanX
    * tBodyAccMeanY
    * tBodyAccMeanZ
